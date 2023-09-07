@@ -1,0 +1,103 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font family for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header section */
+.jumbotron {
+    background-image: url('https://m.media-amazon.com/images/I/31qu4ixHZ3L._AC_UF1000,1000_QL80_.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Style the "Upload Email List" button */
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Style the main content section */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/* Style the "About Us" and "Our Services" sections */
+.col-md-6 {
+    padding: 20px;
+}
+
+/* Add more custom styles as needed */
+
+
+.file-list {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.uploaded-files-list {
+    list-style: none;
+    padding: 0;
+}
+
+.uploaded-files-list li {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.uploaded-files-list li:hover {
+    background-color: #f9f9f9;
+}
+
+.uploaded-files-list a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.uploaded-files-list a:hover {
+    text-decoration: underline;
+}
+

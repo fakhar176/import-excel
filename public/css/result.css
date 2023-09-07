@@ -1,0 +1,109 @@
+/* Style the result container */
+.result-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.file-details-section {
+    background-color: #f2f2f2; /* Background color for the section */
+    padding: 20px; /* Adjust padding as needed */
+    margin-bottom: 20px; /* Add space below the section */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+
+.result-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.table th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Style table rows alternately for better readability */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style the download buttons */
+.download-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-primary,
+.btn-secondary {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.btn-primary {
+    background-color: #FFC107;
+    color: #212529;
+    border-color: #FFC107;
+}
+
+.btn-primary:hover {
+    background-color: #FFA000;
+}
+
+
+
+
+.btn-secondary {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+.btn-secondary:hover {
+    background-color: #444;
+}
+
+
+
+/* Define styles for different data types */
+.data-cell {
+    padding: 5px;
+}
+
+.string {
+    color: blue; /* Customize color for strings */
+}
+
+.integer {
+    color: green; /* Customize color for integers */
+}
+.date {
+    color: #004d80; /* Customize color for integers */
+}
+.text {
+    color: #00807c; /* Customize color for integers */
+}
+.boolean {
+    color: #80004d; /* Customize color for integers */
+}
+
+/* Add more styles for other data types as needed */
